@@ -1,0 +1,1133 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	line-height: 24px;
+	background: #f6f6f6;
+	font-family: "宋体";
+	min-width: 1200px;
+}
+.clear{
+	clear: both;
+	line-height: 0;
+	height: 0;
+	font-size: 0;
+	overflow: hidden;
+}
+a{
+	color: #333;
+}
+a:hover{
+	text-decoration: none;
+	color: #225ba9;
+}
+.headbg{
+	width: 100%;
+	margin:0 auto;
+	border-top: 3px solid #3399ff;
+}
+.head{
+	width: 1200px;
+	height: 34px;
+	margin: 0 auto;
+	line-height: 34px;
+
+}
+.head>p{
+	color: #000;
+}
+.head .fr{
+	width: 50%;
+}
+.list{
+	overflow: hidden;
+   	list-style: none;
+   	padding: 0;
+}
+.ul,li{
+	list-style: none;
+	float: left;
+}
+.head li{
+	float: right;
+	margin-left: 15px;
+	display: inline;
+	color: #959595;
+}
+.head li a{
+	color: #959595;
+}
+.weixin{
+	position: relative;
+}
+.weixin_nr:after{
+	content: "";
+	width: 0;
+	height: 0;
+	border-width: 5px;
+	border-color: #e4e4e4;
+	position: absolute;
+	left: 25px;
+	top: -10px;
+	border-style: solid;
+}
+.weixin .weixin_nr{
+	background: #eee no-repeat scroll 0 0;
+	display: none;
+	height: 120px;
+	left: -45px;
+	padding: 10px;
+	position: absolute;
+	text-align: center;
+	top: 30px;
+	width: 103px;
+	z-index: 9999;
+}
+.weixin .weixin_nr .arrow{
+	width: 0;
+	height: 0;
+	border-bottom: 10px solid #fff;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	position: absolute;
+	left: 50px;
+	top: -10px;
+}
+/*header logo部分*/
+.header{
+	width: 1200px;
+	height: 74px;
+	margin: 0 auto;
+}
+.header .fl{
+	width: 200px;
+	padding-top: 8px;
+}
+.img{
+	border: 0;
+	vertical-align: middle;
+}
+.header .fr{
+	width: 730px;
+	padding-top: 15px;
+}
+.header .search{
+	width: 296px;
+	height: 22px;
+	padding: 1px;
+	border: 1px solid #a0a0a0;
+	float: left;
+	margin-top: 9px;
+	display: inline;
+	background: #fff;
+}
+.header .search input{
+	float: left;
+	border: none;
+	width: 240px;
+	line-height: 22px;
+	padding: 0 5px;
+	color: #225ba9;
+}
+input{
+	background-color: white;
+	font-size: 14px;
+}
+.header .search button{
+	width: 35px;
+	height: 22px;
+	background: #fff;
+	border: none;
+	border-left: 1px solid #a0a0a0;
+	float: right;
+	cursor: pointer;
+}
+.header .tel{
+	width: 390px;
+	height: 44px;
+	border-left: 1px solid #a0a0a0;
+	float: right;
+	padding-left: 17px;
+	position: relative;
+}
+.header .tel li{
+	float: right;
+	height: 44px;
+	display: block;
+	line-height: 44px;
+	font-size: 14px;
+	color: #225ba9;
+}
+.header .tel li.f30{
+	font-size: 30px;
+	color: #3399ff;
+	margin-right: 5px;
+}
+.header .tel li.tal{
+	background: url(../img/ico03.png) left center no-repeat;
+	padding-left: 33px;
+}
+/*标题栏*/
+.navBg{
+	min-width: 1200px;
+	height: 40px;
+	background: #00a0e9;
+}
+.nav{
+	width: 1200px;
+	height: 40px;
+	margin:0 auto;
+}
+.nav li{
+	float: left;
+	width: 119px;
+	height: 40px;
+	display: block;
+	text-align: center;
+	line-height: 40px;
+	border-right: 1px solid #a0a0a0;
+	font-size: 14px;
+	position: relative;
+}
+.nav li:hover{
+	background: #;
+}
+.nav li.none{
+	border-right: none;
+}
+.nav li a{
+	color: #fff;
+}
+.nav li a:hover{
+	width: 119px;
+	height: 40px;
+	display: block;
+	background: #fc9041;
+}
+/*FOXUS大图及旅游快讯*/
+.focus{
+	width: 1200px;
+	height: 480px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.js{
+	width: 845px;
+	height: 480px;
+	background: #fff;
+	position: relative;
+	float: left;
+}
+.preview>img:target{
+   	display: block;
+   }
+.js h2{
+	border-bottom: 1px solid #00a0e9;
+}
+.js h3{
+	padding: 18px 20px 10px;
+	font:100 22px "微软雅黑";
+}
+.js p{
+	padding: 0 155px 0 20px;
+	color: #666;
+	line-height: 28px;
+}
+.jsNav{
+	position: absolute;
+	right: 0;
+	bottom: 50px;
+	width: 140px;
+	height: 5px;
+	line-height: 5px;
+	background: none;
+}
+#jsNav{
+	overflow: hidden;
+   	list-style: none;
+   	padding: 0;
+}
+.jsNav a{
+	width: 20px;
+	float: left;
+	height: 4px;
+	background: #e3e33e;
+	margin-right: 6px;
+	display: inline-block;
+	text-indent: -9999px;
+}
+.jsNav a.prevBtn{
+	display: none;
+}
+.jsNav a.nextBtn{
+	display: none;
+}
+.jsNav a.imgSelected{
+	background: #00a0e9;
+}
+/*旅游快讯*/
+.focus_txt{
+	width: 315px;
+	height: 470px;
+	float: right;
+	background-color: #fff;
+	
+    padding: 0 10px;
+}
+.focus_txt h2{
+	font: 100 30px "微软雅黑";
+	line-height: 80px;
+	text-align: center;
+	color: #637c9e;
+	background: url(../img/index_bg01.png) center top repeat-x;
+}
+.focus_con{
+	width: 305px;
+	height: 93px;
+	padding:  12px 5px;
+	bottom: 1px solid #d2d2d2;
+}
+.focus_img{
+	width: 125px;
+	float: left;
+}
+.focus_zi{
+	width: 170px;
+	float: right;
+}
+.focus_zi p{
+	color: #666;
+}
+.focus_zi p a{
+	color: #225ba9;
+}
+.focus_txt ul{
+	padding: 6px 5px 0;
+}
+.focus_txt li{
+	background: url(../img/dian04.png) left center no-repeat;
+	padding-left: 15px;
+	font-size: 14px;
+	line-height: 30px;
+}
+.focus_txt li a{
+	color: #333;
+}
+.focus_txt h4{
+	float: right;
+	line-height: 30px;
+	font-size: 14px;
+}
+.focus_txt h4 a{
+	color: #225ba9;
+}
+/*bg_blue承德必游 主题游览*/
+.bg_blue{
+	min-width: 1200px;
+	background: #e7eff7;
+	margin: 10px auto;
+	padding-right: 10px 10px;
+}
+.main{
+	width: 1200px;
+	min-height: 100px;
+	overflow: hidden;
+	margin:0 auto;
+}
+.main .main_fl{
+	width: 845px;
+	height: auto!impotant;
+	min-height: 100px;
+	/*height: 100px;*/
+	overflow: hidden;
+	float: left;
+}
+.title02{
+	width: 100%;
+}
+.title02 p{
+	color: #000;
+	height: 44px;
+	display: block;
+	border-bottom: 1px solid #d2d2d2;
+}
+.title02 p a{
+	float: right;
+	margin-top: 15px;
+	padding-right: 10px;
+	font-size: 14px;
+}
+.title02 p span{
+	width: 130px;
+	height: 44px;
+	display: block;
+	line-height: 44px;
+	font-size: 22px;
+	font-family: "微软雅黑";
+	text-align: center;
+	background: #fff;	
+}
+.play{
+	width: 100%;
+	height: auto!impotant;
+	min-height: 200px;
+	/*height: 200px;*/
+	overflow: hidden;
+}
+.play ul li.none{
+	margin-left: 0;
+}
+.play ul li{
+	width: 200px;
+	float: left;
+	margin: 10px 0 0 15px;
+	display: inline;
+}
+.play ul li a{
+	width: 200px;
+	height: 299px;
+	display: block;
+	background: #fff;
+}
+.play ul li h2{
+	font-size: 14px;
+	padding:10px 10px 0;	
+}
+.play ul li p{
+	padding: 15px 10px 0;
+	color: #666;
+}
+.main .main_fr{
+	width: 335px;
+	height: auto!impotant;
+	min-height: 100px;
+	/*height: 100px;*/
+	overflow: hidden;
+	float: right;
+}
+.title01{
+	width: 100%;
+}
+.title01 p{
+	color:#225ba9;
+	height: 44px;
+	display: block;
+	border-bottom: 1px solid #d2d2d2; 
+
+}
+.title01 p a{
+	float: right;
+	margin-top: 15px;
+	padding-right: 10px;
+	font-size: 14px;
+}
+.title01 p span{
+	width: 130px;
+	height: 44px;
+	display: block;
+	border-bottom: 1px solid #225ba9; 
+	line-height: 44px;
+	font-size: 22px;
+	font-family: "微软雅黑";
+	text-align: center;
+}
+.theme{
+	width: 100%;
+}
+.mt10{
+	margin-top: 10px;
+}
+.theme li.none{
+	margin-left: 0;
+}
+.theme li{
+	float: left;
+	margin-left: 1px;
+	margin-bottom: 1px;
+	display: inline-block;
+}
+/*main 小编推荐+兴隆*/
+.main{
+	width: 1200px;
+	min-height: 100px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.main .main_fl{
+	width: 845px;
+	min-height: 100px;
+	overflow: hidden;
+	float: left;
+}
+.edit{
+	width: 100%;
+	min-height: 200px;
+	overflow: hidden;
+	margin-top: 10px;
+	padding-bottom: 13px;
+	background: #fff;
+}
+.edit ul li.none{
+	margin-left: 0;
+}
+.edit ul li{
+	width: 200px;
+	float: left;
+	margin: 13px 0 0 15px;
+	display: inline;
+}
+.edit ul li a{
+	width: 200px;
+	height: 240px;
+	display: block;
+	background: #eee;
+}
+.edit ul li p{
+	font-size: 14px;
+	padding: 15px 10px 0;
+}
+/*右边兴隆*/
+.main .main_fr{
+	width: 335px;
+	min-height: 100px;
+	overflow: hidden;
+	float: right;
+}
+.line{
+	width: 315px;
+	background: #fff;
+	padding: 10px;
+	height: 500px;
+}
+.mta10{
+	margin-top: 10xp;
+}
+.line h2{
+	text-align: center;
+	margin-top: 9px;
+	font-size: 14px;
+}
+.line p{
+	line-height: 22px;
+	color: #666;
+	padding: 5px 10px 13px;
+	/*底边框虚线*/
+	border-bottom: 1px dotted #999;
+}
+.line ul{
+	padding: 13px 8px 0;
+}
+.line li{
+	background: url(../img/dian04.png) left center no-repeat;
+    padding-left: 15px;
+    font-size: 14px;
+    line-height: 30px;	
+}
+/*游记攻略+四季精选*/
+.travel{
+	width: 819px;
+	height: 210px;
+	background: #fff;
+	margin-top: 10px;
+	padding: 13px;
+}
+.travel_fl{
+	width: 280px;
+	height: 210px;
+	float: left;
+}
+.travel_ft{
+	width: 185px;
+	height: 210px;
+	padding: 0 15px 0 10px;
+	border-right: 1px dotted #6c6c6c;
+	float: left;
+}
+.travel_ft h2{
+	font-size: 14px;
+	padding-top: 5px;
+}
+.travel_ft h3{
+	text-align: right;
+	font-size: 12px;
+	font-weight: 100;
+	color: #333;
+}
+.travel_ft p.mt10{
+ margin-top: 10px;
+}
+.travel_ft p{
+	color: #666;
+}
+.travel_fr{
+	width: 310px;
+	height: 210px;
+    float: right;
+	padding-left: 15px;
+	margin-top: 22px;
+
+}
+.travel_fr li{
+	background: url(../img/dian04.png) le  cen  no-repeat;
+    padding-left: 15px;
+    font-size: 14px;
+    line-height: 30px;
+}
+/*中间图片*/
+.ad{
+	width: 1200px;
+	height: 150px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+/*四宫格*/
+.bg_white{
+	min-width: 1200px;
+	background: #fff;
+	margin: 10px auto;
+}
+.cate{
+	width: 595px;
+	height: 260px;
+}
+.cate on{
+	width: 595px;
+	height: 190px;
+	margin-top: 10px;
+}
+.cate_img{
+	width: 220px;
+	height: 190px;
+	float: left;
+	border-right: 1px dotted #6c6c6c;
+	padding-right: 15px;
+}
+.cate_img p{
+	text-align: center;
+	font-size: 14px;
+	line-height: 30px;
+}
+.cate_txt{
+	width: 320px;
+	height: 180px;
+	float: right;
+	background: #f3f7fb;
+	padding: 5px 12px;
+}
+.cate_txt li{
+	width: 145px;
+	display: block;
+	float: left;
+	padding-left: 15px;
+	font-size: 14px;
+	line-height: 30px;
+}
+.title04{
+	width: 100%;
+}
+.title04 p{
+	color: #000;
+	height: 44px;
+	display: block;
+	border-bottom: 1px solid #d2d2d2;
+}
+.title04 p span{
+	width: 130px;
+	height: 44px;
+	display: block;
+	line-height: 44px;
+	font-size: 22px;
+	font-family: "微软雅黑";
+	text-align: center;
+	background: #fff;
+}
+.title04 p a{
+	float: right;
+	margin-top: 15px;
+	padding-right: 10px;
+	font-size: 14px;
+}
+.cate_con{
+	width: 595px;
+	height: 190px;
+	margin-top: 10px;
+}
+.title06{
+	width: 100%;
+}
+.title06 p{
+	color: #fff;
+	height: 44px;
+	display: block;;
+	border-bottom: 1px solid #000;
+}
+.title06 p a{
+	float: right;
+	margin-top: 15px;
+	padding-right: 10px;
+	font-size: 14px;
+}
+.title06 p span{
+	width: 130px;
+	height: 44px;
+	display: block;
+	line-height: 44px;
+	font-size: 22px;
+	font-family: "微软雅黑";
+	text-align: center;
+	background: #000;
+}
+.music{
+	width: 1160px;
+	min-height: 200px;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 20px 20px 0;
+}
+.music_fl{
+	width: 590px;
+	float: left
+	;
+}
+.music_fl li{
+	width: 275px;
+	height: 228px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	display: inline-block;
+	position: relative;
+}
+.music .music_txt{
+	width: 97%;
+	padding: 10px 0 10px 3%;
+	background: url(../img/bg_an.png);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.music .music_txt p{
+	color: #fff;
+	font-size: 14px;
+}
+.music span{
+	width: 65px;
+	height: 65px;
+	display: block;
+	position: absolute;
+	bottom: 80px;
+	left: 105px;
+}
+.music_fr{
+	width: 570px;
+	height: 476px;
+	position: relative;
+	float: right;
+	margin-bottom: 20px;
+}
+/*友情链接*/
+.linkBg{
+	min-width: 1200px;
+	background: #fff;
+	padding: 15px 0 25px;
+}
+.links{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	background: #fff;
+}
+.links p{
+	font-size: 14px;
+	color: #225ba9;
+}
+.links a{
+	color: #225ba9;
+}
+/*底部foot*/
+.foot{
+	min-width: 1200px;
+    padding: 20px 0;
+    border-top: 1px dotted #6c6c6c;
+    background: #fff;
+}
+.foot p{
+	text-align: center;
+	font-size: 14px;
+	line-height: 26px;
+	color: #000;
+}
+.foot a{
+	color: #444;
+}
+.foot p span{
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #444;
+}
+/*旅游快讯*/
+.location{
+	width: 1200px;
+	height: 40px;
+	margin: 0 auto;
+}
+.location p{
+	font-size: 14px;
+	line-height: 40px;
+}
+.main .list{
+    width: 805px;
+    min-height: 1360px;
+    overflow: hidden;
+    float: left;
+    background: #fff;
+    padding: 10px 20px 15px;
+}
+.main .listTxt{
+	width: 805px;
+	min-height: 50px;
+	overflow-x: hidden;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 10px;
+}
+.main .listTxt h2{
+	font:100 24px "微软雅黑";
+	line-height: 38px;
+	margin-bottom: 5px;
+}
+.main .listTxt p{
+	font-size: 14px;
+	color: #666;
+}
+.main .listTxt p a{
+	color: #e60012;
+}
+.main .listTxt p span {
+	font-size: 12px;
+	color: #999;
+	float: right;
+}
+.lpage{
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+.lpage p{
+	text-align: center;
+	line-height: 28px;
+	font-size: 14px;
+}
+.lpage p a{
+	color: #333;
+	border: 1px solid #eee;
+	padding: 6px 10px;
+	margin-right: 5px;
+	background: #fff;
+}
+.lpage p span{
+	line-height: 28px;
+	margin-right: 5px;
+	color: #666;
+}
+.lpage p .input{
+	width: 35px;
+	height: 20px;
+	text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid #eee;
+}
+/*右边图组*/
+.main .common{
+    width: 335px;
+    min-height: 400px;
+    overflow: hidden;
+    float: right;
+}
+.main .common1{
+	background: #fff;
+	width: 305px;
+	padding: 15px;
+}
+.main .common2{
+	width: 335px;
+	padding: 5px 0;
+}
+.main .common2 ul{
+	padding: 5px 0 0 18px;
+}
+.main .common2 li{
+	font-size: 14px;
+	line-height: 30px;
+	background: url();
+	padding-left: 15px;
+}
+main .common3{
+	width: 335px;
+}
+.main .common3 ul{
+	padding: 13px 15px 18px;
+}
+.main .common3 li{
+	width: 305px;
+	display: block;
+	line-height: 36px;
+	text-align: center;
+	font-size: 14px;
+}
+/*畅游承德*/
+.focus_play{
+	width: 335px;
+	height: 472px;
+	float: right;
+	background: #fff;
+}
+.focus_play .focus_tit{
+	width: 300px;
+	height: 57px;
+	border-bottom: 1px solid #d2d2d2;
+	padding: 0 15px 0 20px;
+}
+.focus_play .focus_tit p{
+	line-height: 57px;
+}
+.focus_play .focus_tit a{
+	float: right;
+}
+.focus_play .focus_text{
+	width: 305px;
+	height: 85px;
+	padding: 9.5px 5px;
+	border-bottom: 1px #d2d2d2 dotted;
+	margin: 0 auto;
+	line-height: 22px;
+}
+.focus_img{
+	width: 125px;
+	float: left;
+}
+.focus_zi{
+	width: 170px;
+	float: right;
+}
+.focus_zi p{
+	color: #666;
+}
+/*四季精选*/
+/*春*/
+.seasons01{
+	width: 100%;
+	background: #f3f8e7;
+	padding-bottom: 12px;
+}
+.seasons02{
+	width: 100%;
+	background: #f3f5fd;
+	padding-bottom: 12px;
+}
+.seasons03{
+	width: 100%;
+	background: #fef6e9;
+	padding-bottom: 12px;
+}
+.seasons04{
+	width: 100%;
+	padding-bottom: 12px;
+}
+.sea_tit{
+	width: 1190px;
+	height: 43px;
+	border-bottom: 1px solid #d2d2d2;
+	margin: 0 auto;
+	padding-right: 10px;
+}
+.sea_tit p a{
+	float: right;
+	margin-top: 15px;
+}
+.seasons01 .sea_tit span{
+	color: #8fc31f;
+	border-bottom: 1px #8fc31f;
+	font-size: 30px;
+	/*background: url(../img/sico01.png) 20px center no-repeat;*/
+}
+.seasons02 .sea_tit span{
+	color: #8fc31f;
+	border-bottom: 1px #8fc31f;
+	font-size: 30px;
+/*	background: url(../img/sico02.png) 20px center no-repeat;*/
+}
+.seasons03 .sea_tit span{
+	color: #ff7f00;
+	border-bottom: 1px #ff7f00;
+	font-size: 30px;
+/*	background: url(../img/sico03.png) 20px center no-repeat;*/
+}
+.seasons04 .sea_tit span{
+	color: #225ba9;
+	font-size: 30px;
+	border-bottom: 1px #225ba9;
+	/*background: url(../img/sico04.png) 20px center no-repeat;*/
+}
+.seasons{
+	width: 1200px;
+	height: 325px;
+	margin: 0 auto;
+	margin-top: 10px;
+
+}
+.sea_txt01{
+	width: 295px;
+	height: 310px;
+	background: #fff;
+	padding: 15px 20px 0;
+}
+.sea_txt02{
+	width: 295px;
+	height: 310px;
+	background: #fff;
+}
+
+.sea_txt01 p{
+	font-size: 14px;
+	color: #666;
+	text-indent: 2em;
+	padding-bottom: 7px;
+	border-bottom: 1px dotted #6c6c6c;
+}
+.sea_txt01 ul{
+	padding-top: 5px;
+}
+.sea_txt01 ul.green li{
+	background: url(../img/dian01.png) left center no-repeat;
+}
+.sea_txt01 ul.blue li{
+	background: url(../img/dian02.png) left center no-repeat;
+}
+.sea_txt01 ul.org li{
+	background: url(../img/dian03.png) left center no-repeat;
+}
+.sea_txt01 ul.dark li{
+	background: url(../img/dian04.png) left center no-repeat;
+}
+.sea_txt01 li{
+	padding-left: 15px;
+	font-size: 14px;
+	line-height: 30px;
+}
+.seasons .ft{
+	float: left;
+	margin-left: 20px;
+	display: inline;
+}
+.sea_img{
+	width: 470px;
+	height: 325px;
+}
+.sea_img li{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	display: inline;
+
+}
+.sea_img li{
+	margin-bottom: 0;
+}
+.sea_txt02{
+	width: 375px;
+	height: 325px;
+	background: #fff;
+}
+.sea_txt02 p{
+	font-size: 14px;
+	line-height: 50px;
+	text-align: center;
+}
+
+
+/*图游承德*/
+.warp{
+	min-width: 1200px;
+	min-height: 100px;
+	overflow: hidden;
+	margin: 0 auto;
+	background: url(../img/dbg01.jpg) center top no-repeat #000;
+	padding-bottom: 20px;
+}
+.pv_tit{
+	width: 1200px;
+	height: 120px;
+	margin: 0 auto;
+}
+.pv_tit .fl{
+	border-right: 1px solid #666;
+	padding-right: 20px;
+	padding-left: 350px;
+	text-align: right;
+}
+.piv_tit .tu{
+	width: 715px;
+	height: 120px;
+}
+img{
+	border: 0;
+	vertical-align: middle;
+}
+.pv_tit .fr{
+	padding-left: 20px;
+	padding-right: 350px;
+
+}
+.piv_tit .zi{
+	width: 444px;
+	height: 120px;
+}
+.piv_tit p{
+	margin-top: 60px;
+}
+.pv{
+	width: 1240px;
+	min-height: 100px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.pv li{
+	width: 285px;
+	height: 251px;
+	background: #ccc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	display: inline-block;
+}
+.pv li h3{
+	padding: 10px 17px 5px;
+	font-size: 14px;
+	font-weight: 100;
+}
+.warp .lpage span{
+	color: #fff;
+}
+.lpage p span{
+	line-height: 28px;
+	margin-right: 5px;
+}
+.lpage p .input{
+    width: 35px;
+    height: 20px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid #eee;
+}
+.input{
+	font-size: 14px;
+	line-height: 16px;
+}
+.lpage p a.a02{
+	border: 1px solid #dcdcdc;
+	background: #f3f3f3;
+	color: #333;
+}
